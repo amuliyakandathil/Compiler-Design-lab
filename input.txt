@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define PI 3.14
+
+int main() {
+    int radius = 5;
+    float area = PI * radius * radius;
+    char letter = 'A';
+
+    if (area > 50) {
+        printf("Large Circle\n");
+    } else {
+        printf("Small Circle\n");
+    }
+    return 0;
+}
+
+}
